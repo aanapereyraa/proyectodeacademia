@@ -1,0 +1,14 @@
+body {
+    background-image: url('../IMAGENES/JPG/fondodeteatro2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+   
+}
+#piedepag{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(150, 150, 150 );
+    
+}

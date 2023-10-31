@@ -1,0 +1,17 @@
+body {
+    background-image: url('../IMAGENES/JPG/fondodepregrado3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+textarea{
+    resize: none;
+}
+
+#piedepag{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(150, 150, 150 );
+    
+}
