@@ -1,0 +1,12 @@
+body{
+    background-image:url('../imagenes/jpg/arte/fondo2.1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(150,150,150);
+    padding: 20px;
+}

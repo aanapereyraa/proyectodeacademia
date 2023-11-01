@@ -1,0 +1,13 @@
+body{
+    background-image:url('../imagenes/jpg/fotografia/fondo4.1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: azure;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+    padding: 20px;
+}
