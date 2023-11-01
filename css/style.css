@@ -5,6 +5,9 @@ body {
     background-size: cover;
     color: #fff;
 }
+textarea{
+    resize: none;
+}
 
 #piedepag{
     padding: 20px;
