@@ -13,5 +13,12 @@ textarea{
     padding: 20px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    
+}
+
+.barradenav{
+    margin: 0;
+    padding: 0;
+    margin: 50px;
+    padding: 20px;
+    background-color: blue;
 }
