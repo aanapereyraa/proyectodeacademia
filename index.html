@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="IMAGENES/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Página Principal</title>
 </head>
 <body>
     <header>
-        <nav>
-            <h1><a href="index.html">Academia de arte IMA</a></h1>
-            <ul><li><a href="arte.html">Arte</a></li>
-                <li><a href="danza.html">Danza</a></li>
-                <li><a href="fotografia.html">Fotografía</a></li>
-                <li><a href="música.html">Música</a></li>
-                <li><a href="teatro.html">Teatro</a></li>
-                <li><a href="pregrado.html">Carreras</a></li>
-                <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Academia de arte IMA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="centro">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Carreras
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pregrado.html">Pregrado</a></li>
+                      <li><a class="dropdown-item" href="#">Grado</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Materias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="arte.html">Arte</a></li>
+                      <li><a class="dropdown-item" href="danza.html">Danza</a></li>
+                      <li><a class="dropdown-item" href="fotografia.html">Fotografía</a></li>
+                      <li><a class="dropdown-item" href="música.html">Música</a></li>
+                      <li><a class="dropdown-item" href="teatro.html">Teatro</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
     </header>
 
-<main>
+<main class="body">
 <section>
     <div>
         <p>Es un placer para nosotros presentarte la <strong>Academia de Artes IMA</strong>, un espacio dedicado a nutrir y potenciar el talento artístico en todas sus formas. Nuestra comunidad apasionada y diversa de artistas, músicos, fotógrafos, bailarines, pintores y actores se reúne para explorar y celebrar la creatividad en su máxima expresión. Con sedes en diferentes provincias de Argentina y próximamente en el extranjero, nos enorgullece ser un faro de arte y cultura que trasciende fronteras. <br>
@@ -146,6 +173,6 @@ Te invitamos a explorar nuestro sitio web y descubrir las oportunidades que <str
             <img src="IMAGENES/PNG/instagram.png" alt="seguinos en instagram" title="logo de instagram" height="40" width="40"></a>
     </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
