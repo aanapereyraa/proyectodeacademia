@@ -10,5 +10,10 @@
     padding: 20px;
     text-align: center;
     background-color: rgb(150, 150, 150 );
-    
+}
+.tea:hover{
+color: darkcyan;
+}
+.tea:link{
+    text-decoration: rgb(0, 0, 0);
 }

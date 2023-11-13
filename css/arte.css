@@ -20,3 +20,12 @@
     background-color: rgba(150,150,150);
     padding: 20px;
 }
+.tienda{
+    color: black;
+}
+.tienda:link{
+    text-decoration: rgb(0, 0, 0);
+}
+.tienda:hover{
+    color: rgb(255, 0, 0);
+}
