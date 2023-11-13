@@ -1,9 +1,19 @@
-body{
+.body{
     background-image:url('../imagenes/jpg/arte/fondo2.1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+}
+.img{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
+#centro{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .footer{
     text-align: center;

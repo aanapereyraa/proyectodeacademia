@@ -1,4 +1,4 @@
-body {
+.body {
     background-image: url('../IMAGENES/JPG/fondodeindex.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +12,7 @@ textarea{
 #piedepag{
     padding: 20px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 228, 228);
 }
 
 .barradenav{
