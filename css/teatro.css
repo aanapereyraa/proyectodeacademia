@@ -12,3 +12,20 @@
     background-color: rgb(150, 150, 150 );
     
 }
+
+/* Estilo del contenedor del carrusel */
+#carouselExampleIndicators {
+
+    width: 100%; /* Ajustado para ocupar el ancho completo del contenedor padre */
+    max-width: 900px; /* Ajustado para un ancho máximo */
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Estilo de las imágenes del carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
