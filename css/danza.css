@@ -12,3 +12,13 @@
     background-color: rgb(150, 150, 150 );
     
 }
+form {
+    width: 400px;
+    border: 2px solid #ccc; 
+    text-align: center;
+    
+  }
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
