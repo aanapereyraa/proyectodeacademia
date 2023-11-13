@@ -16,6 +16,10 @@
 textarea{
   resize: none;
 }
+#preguntas{
+  resize: none;
+
+}
 
 #piedepag{
   padding: 20px;
