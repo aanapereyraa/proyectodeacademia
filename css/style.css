@@ -17,7 +17,7 @@ textarea{
     background-color: rgb(150, 150, 150 );
 }
 
-<<<<<<< HEAD
+
 .ina:link{
     text-decoration: rgb(0, 0, 0);
 }
@@ -25,7 +25,7 @@ textarea{
 .ina:hover{
     color: blue;
 }
-=======
+
 form {
     width: 350px;
     border: 2px solid #ccc; 
@@ -36,7 +36,5 @@ label {
     margin-bottom: 8px;
   }
  
- 
->>>>>>> 905702be889980531bfaa1248b6835b2d50efc02
 
 
