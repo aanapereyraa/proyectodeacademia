@@ -4,9 +4,9 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #7a9197;
+    background-image: url(../IMAGENES/JPG/pregunta2.jpeg);
     border-radius: 15px;
-
+    color: aliceblue;
 }
 
 #piedepag{
