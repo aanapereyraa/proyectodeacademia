@@ -20,6 +20,15 @@ textarea{
     background-color: rgb(150, 150, 150 );
 }
 
+
+.ina:link{
+    text-decoration: rgb(0, 0, 0);
+}
+
+.ina:hover{
+    color: blue;
+}
+
 form {
     width: 350px;
     border: 2px solid #ccc; 
@@ -29,6 +38,10 @@ label {
     display: block;
     margin-bottom: 8px;
   }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> ec0d765be9bf781beaefd4cd4bd2aa7d3281b17f
 
 

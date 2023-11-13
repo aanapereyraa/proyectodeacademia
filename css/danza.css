@@ -10,8 +10,19 @@
     padding: 20px;
     text-align: center;
     background-color: rgb(150, 150, 150 );
-    
+
 }
+
+.ballet{
+    color: aqua;
+}
+.ballet:link{
+    text-decoration: rgb(0, 0, 0);
+}
+.ballet:hover{
+    color:rgb(0, 68, 255);
+}
+
 form {
     width: 400px;
     border: 2px solid #ccc; 
