@@ -26,6 +26,14 @@ textarea{
     color: blue;
 }
 
+.cul:link{
+    text-decoration: rgb(0, 0, 0);
+}
+
+.cul:hover{
+    color: blue;
+}
+
 form {
     width: 350px;
     border: 2px solid #ccc; 
@@ -36,5 +44,3 @@ label {
     margin-bottom: 8px;
   }
  
-
-
