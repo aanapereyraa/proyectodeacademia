@@ -10,6 +10,7 @@
     padding: 20px;
     text-align: center;
     background-color: rgb(150, 150, 150 );
+<<<<<<< HEAD
 }
 
 .ballet{
@@ -21,3 +22,17 @@
 .ballet:hover{
     color:rgb(0, 68, 255);
 }
+=======
+    
+}
+form {
+    width: 400px;
+    border: 2px solid #ccc; 
+    text-align: center;
+    
+  }
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+>>>>>>> 905702be889980531bfaa1248b6835b2d50efc02

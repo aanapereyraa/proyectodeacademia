@@ -4,6 +4,8 @@
     background-position: center;
     background-size: cover;
     color: #fff;
+    background-attachment: fixed;
+
 }
 textarea{
     resize: none;
@@ -12,9 +14,10 @@ textarea{
 #piedepag{
     padding: 20px;
     text-align: center;
-    background-color: rgb(236, 228, 228);
+    background-color: rgb(150, 150, 150 );
 }
 
+<<<<<<< HEAD
 .ina:link{
     text-decoration: rgb(0, 0, 0);
 }
@@ -22,5 +25,18 @@ textarea{
 .ina:hover{
     color: blue;
 }
+=======
+form {
+    width: 350px;
+    border: 2px solid #ccc; 
+ 
+  }
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+ 
+ 
+>>>>>>> 905702be889980531bfaa1248b6835b2d50efc02
 
 

@@ -10,10 +10,32 @@
     padding: 20px;
     text-align: center;
     background-color: rgb(150, 150, 150 );
+<<<<<<< HEAD
 }
 .tea:hover{
 color: darkcyan;
 }
 .tea:link{
     text-decoration: rgb(0, 0, 0);
+=======
+    
+}
+
+#carouselExampleIndicators {
+    width: 100%; 
+    max-width: 900px; 
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: auto;
+    display: block;
+}
+
+#mascaritas{
+    display: flex;
+    justify-content: center;
+>>>>>>> 905702be889980531bfaa1248b6835b2d50efc02
 }

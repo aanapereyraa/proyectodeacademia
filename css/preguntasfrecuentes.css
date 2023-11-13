@@ -4,13 +4,21 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url(../IMAGENES/JPG/pregunta2.jpeg);
-    border-radius: 15px;
-    color: aliceblue;
+    background-image: url(../IMAGENES/JPG/fondo20.jpg);
+    color: rgb(250, 248, 248);
+    background-size: cover;
 }
+
 
 #piedepag{
     padding: 20px;
     text-align: center;
+<<<<<<< HEAD
     background-color: rgb(150, 150, 150 ); 
 }
+=======
+    background-color: rgb(150, 150, 150 );
+}
+
+
+>>>>>>> 905702be889980531bfaa1248b6835b2d50efc02
