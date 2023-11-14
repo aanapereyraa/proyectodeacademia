@@ -14,10 +14,20 @@ textarea{
     resize: none;
 }
 
-#piedepag{
-    padding: 20px;
+#piedepag {
+    padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;
-    background-color: rgb(150, 150, 150 );
+    background-color: rgb(150, 150, 150);
+    height: 80px; /* Reducido de 100px a 80px */
+  
+}
+
+.zoom{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.zoom:hover{
+    transform: scale(1.2); /* Cambiar el tamaño al 120% */
 }
 
 
@@ -46,13 +56,3 @@ label {
     display: block;
     margin-bottom: 8px;
   }
-<<<<<<< HEAD
-
-=======
- 
-<<<<<<< HEAD
-=======
->>>>>>> ec0d765be9bf781beaefd4cd4bd2aa7d3281b17f
-
-
->>>>>>> ea0e19f6a05537fd3870205dafa4029be923b0cd

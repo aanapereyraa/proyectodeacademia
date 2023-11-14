@@ -15,11 +15,13 @@
     align-items: center;
     justify-content: center;
 }
-.footer{
+#piedepag {
+    padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;
-    background-color: rgba(150,150,150);
-    padding: 20px;
+    background-color: rgb(150, 150, 150);
+    height: 80px; /* Reducido de 100px a 80px */
 }
+
 .tienda{
     color: black;
 }
