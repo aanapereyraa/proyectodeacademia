@@ -1,6 +1,8 @@
+
 .navbar{
     position: sticky;
 }
+
 .body {
     background-image: url('../IMAGENES/JPG/fondodeindex.jpg');
     background-repeat: no-repeat;
@@ -25,6 +27,7 @@ textarea{
 .zoom{
     display: inline-block;
     transition: transform 0.3s ease-in-out;
+    margin-left: 5px;
 }
 .zoom:hover{
     transform: scale(1.2); /* Cambiar el tamaño al 120% */
