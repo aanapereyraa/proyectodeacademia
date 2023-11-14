@@ -10,12 +10,21 @@
   
 }
 
-#piedepag{
-    padding: 20px;
+#piedepag {
+    padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;
-    background-color: rgb(150, 150, 150 );
-    
+    background-color: rgb(150, 150, 150);
+    height: 80px; /* Reducido de 100px a 80px */
 }
+.zoom{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 5px;
+}
+.zoom:hover{
+    transform: scale(1.2); /* Cambiar el tamaño al 120% */
+}
+
 
 
 .styled-table {
