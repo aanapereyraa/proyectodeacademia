@@ -6,21 +6,12 @@
     color: rgb(250, 248, 248);
     background-size: cover;
     display: block;
-    margin: 0;
-    padding: 0;
 
 }
 
 #piedepag {
     padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;
-<<<<<<< HEAD
-
-    background-color: rgb(150, 150, 150 ); 
-}
-
-
-=======
     background-color: rgb(150, 150, 150);
     height: 80px; /* Reducido de 100px a 80px */
 }
@@ -32,5 +23,3 @@
 .zoom:hover{
     transform: scale(1.2); /* Cambiar el tamaño al 120% */
 }
-
->>>>>>> d85cfa41067cb69ecb7ef7be7769ed3f0ac007bc
