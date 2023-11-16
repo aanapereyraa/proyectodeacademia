@@ -1,0 +1,59 @@
+.img{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
+p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+   
+}
+#cont{
+
+    margin: 0 auto;
+}
+
+
+.zoom{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 5px;
+}
+.zoom:hover{
+    transform: scale(1.2); 
+}
+section {
+    background-image: url('../IMAGENES/JPG/fondodeform.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d0c3c3;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1px 20px 20px; /* 80px arriba, 20px a los lados y abajo */
+}
+
+
+
+#piedepag {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+    height: 80px;
+}
+
+
