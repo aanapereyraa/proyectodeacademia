@@ -27,7 +27,7 @@
                       Carreras
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="pregrado.html#modalidad..">Modalidad</a></li>
+                      <li><a class="dropdown-item" href="pregrado.html#modalidad">Modalidad</a></li>
                       <li><a class="dropdown-item" href="pregrado.html#pregrado">Pregrado</a></li>
                       <li><a class="dropdown-item" href="pregrado.html#grado">Grado</a></li>
                     </ul>
@@ -100,7 +100,7 @@ Te invitamos a explorar nuestro sitio web y descubrir las oportunidades que <str
     </div>
 </section>
 <section>
-    <form action="#" method="post">
+    <form action="enviodeform.html" method="post">
     <fieldset>
         <legend>Solicita información</legend>
         <label for="NOM">Nombre</label>
@@ -110,7 +110,7 @@ Te invitamos a explorar nuestro sitio web y descubrir las oportunidades que <str
         <input type="text" name="apellido_usuario" id="apellido"> <br>
 
         <label for="email">Email</label>
-        <input type="email" name="email_usuario" id="email"> <br>
+        <input type="email" name="email_usuario" id="email" required> <br>
 
         <label for="tel">Telefono</label>
         <input type="tel" name="telefono" id="tel"> <br>
@@ -147,7 +147,7 @@ Te invitamos a explorar nuestro sitio web y descubrir las oportunidades que <str
             <option value="modo2">Virtual</option>
             <option value="modo3">Híbrido</option>
         </select> <br>
-        <input type="submit" name="info" value="enviar" id="enviar_info"><br>
+        <input  class="boton" type="submit" name="info" value="enviar" id="enviar_info"><br>
 
     </fieldset>
     </form>  
@@ -156,14 +156,14 @@ Te invitamos a explorar nuestro sitio web y descubrir las oportunidades que <str
     <h2>fotos</h2>
     <img src="IMAGENES/JPG/instituto2.jpg" alt="recorrido de visitantes" title="recorrido por el instituto" height="400" width="300">
     <div><br>
-    <img src="IMAGENES/JPG/instituto4.jpg" alt="chica pintando" title="alumna pintando" height="200" width="300">
     </div>
     <section>
         <p>Te presentamos un recurso exclusivo para la capital de Argentina y sus alrededores: se trata de la <a class="cul" href="https://disfrutemosba.buenosaires.gob.ar/buscar?type_of_experience=1">Agenda Cultural de Buenos Aires</a>. Este sitio web fue creado para ofrecerte una amplia gama de eventos culturales. Podrás encontrar fácilmente actividades cercanas a tu hogar gracias a su filtro de búsqueda por ubicación. Además, cuenta con opciones para filtrar por fecha, horario y costo, permitiéndote explorar eventos gratuitos o con costo. ¡Descubre y disfruta de la rica oferta cultural que esta increíble ciudad tiene para ofrecer!</p>
     </section>
-  <div>
+  <div id="fotoss">
     <img src="IMAGENES/JPG/musica.jpg" alt="enseñanza de musica " title="chico estudiando musica " height="200" width="300">
     <img src="IMAGENES/JPG/intituto3.jpg" alt="obras de los alumnos" title="pinturas de los alumnos" height="200" width="300">
+    <img src="IMAGENES/JPG/instituto4.jpg" alt="chica pintando" title="alumna pintando" height="200" width="300">
   </div>
   </section><br>
 </main>

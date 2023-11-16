@@ -26,7 +26,8 @@
                           Carreras
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="index.html">Pregrado</a></li>
+                            <li><a class="dropdown-item" href="pregrado.html#modalidad">Modalidad</a></li>
+                          <li><a class="dropdown-item" href="pregrado.html#pregrado">Pregrado</a></li>
                           <li><a class="dropdown-item" href="pregrado.html#grado">Grado</a></li>
                         </ul>
                       </li>
@@ -58,7 +59,7 @@
 <main class="body">
     <section>     
 <div>
-    <h1>Modalidades</h1>
+    <h1 id="modalidad">Modalidades</h1>
 <dl>
     <dt>Presencial</dt>
     <dd>En la modalidad presencial de la Academia de Artes IMA, los estudiantes <em>asisten físicamente a las instalaciones de la academia para recibir clases</em>. Este enfoque proporciona una experiencia directa e inmersiva en la enseñanza artística. Los alumnos tienen la oportunidad de <em>interactuar cara a cara con los profesores</em> , recibir retroalimentación inmediata y trabajar en proyectos artísticos de manera conjunta con otros estudiantes. Esta modalidad es ideal para disciplinas que requieren un alto grado de interacción personal y práctica, como la pintura, la danza, la música o el teatro.
@@ -76,7 +77,7 @@
     </section>
     <section>
     
-    <h2>Pregrado</h2>
+    <h2 id="pregrado">Pregrado</h2>
     <p>Pregrado en la Academia de Artes IMA:
         El pregrado en la Academia de Artes IMA es la etapa inicial de educación superior en la que los estudiantes obtienen una formación fundamental en una disciplina artística específica. Durante este programa, los estudiantes participan en cursos que abarcan una variedad de aspectos creativos y técnicos de su campo de estudio, permitiéndoles adquirir habilidades y conocimientos esenciales para las artes. Al finalizar este pregrado, los estudiantes de la Academia de Artes IMA obtienen un título de bachillerato o licenciatura en su disciplina artística elegida.</p>
 
@@ -195,7 +196,7 @@
         </tfoot>
         </table>
     
-    <form action="#" method="post">
+    <form action="enviodeform.html" method="post">
             <fieldset>
                 <legend>Solucitud para Master</legend>
                 <label for="NOM">Nombre</label>
@@ -221,7 +222,7 @@
                 <input type="checkbox" name="selecccarrera_5" value="selecccarrera"  id="teatro"> <br>
         
                 <label for="email">Email</label>
-                <input type="email" name="email_usuario" id="email"> <br>
+                <input type="email" name="email_usuario" id="email" required> <br>
 
                 <label for="elegirpaís">País</label>
                 <select name="paises" id="elegirpaís">
