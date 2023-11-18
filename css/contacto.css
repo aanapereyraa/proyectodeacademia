@@ -40,3 +40,7 @@ h2{
   text-align: center;
   align-items: center;
 }
+
+.env{
+  border-radius: 15px;
+}
