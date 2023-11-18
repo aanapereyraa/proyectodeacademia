@@ -56,7 +56,7 @@
         </nav>
     </header>
 <main class="body">
-<section>
+<section class="centrar">
     <h1>Música</h1>
     <!--imagen y video-->
     <div class="centrarImg">
@@ -64,7 +64,7 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/If_T1Q9u6FM?si=52tmC2CxUTKDEBJj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </section>
-<section>
+<section class="centrar">
 
     <p> <em>Bienvenidos a la Academia de Artes IMA</em>, donde la pasión por la música se combina con una
         educación de calidad para formar a los músicos del futuro. Nuestra academia ofrece una
@@ -102,7 +102,7 @@
     <img src="IMAGENES/JPG/estudio.jpg" alt="estuido de grabación" title="estudio de grabación de la academia" height="200" width="300">
     <img src="IMAGENES/JPG/guitarra.jpg" alt="guitarra" title="guitarra electrica" height="200" width="300">
 </section>
-<section>
+<section class="centrar">
     <h3><u>Materiales</u></h3>
     <ul>
         <li> <u>Guitarra:</u> Para estudiar guitarra en el Academia IMA, necesitarás tu propia guitarra acústica o eléctrica, un afinador, un metrónomo, cuerdas de repuesto y una púa. </li>
@@ -123,8 +123,8 @@
     <p>Nuestro enfoque educativo integral y nuestros recursos de alta calidad te prepararán para una carrera exitosa en el mundo de la música. <em>¡Únete a nosotros y desbloquea tu potencial musical!</em> </p>
     <img src="IMAGENES/JPG/instrumento3.jpg" alt="saxofon" title="saxofon en una tela blanca" height="225" width="300"> <br> <br>
 
-    <div class="form">
-    <label>¿En qué te queres especializar?</label> <br>
+  <form action="enviodeform.html" method="post">
+    <h4>¿En qué te queres especializar?</h4>
     <label for="instrumento">Instrumento</label>
     <select name="tipo" id="instrumento">
         <option>Seleccione</option>
@@ -151,9 +151,8 @@
         <label for="no">No</label>
         <input type="radio" name="Seleccione" value="opcion_2" id="no"> <br>
         <input type="submit" name="info" value="enviar" id="enviar_info"> 
-    </div> <br>
-    
-</section>
+  </form> 
+</section> <br> 
 </main>
 
 <footer>

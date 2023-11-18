@@ -55,5 +55,21 @@ label {
     display: block;
     margin-bottom: 8px;
   }
+
+.centrar{
+    margin-right: 50px;  /* Margen derecho de px */
+    margin-left: 50px;   /* Margen izquierdo de 25px */
+  }
+  
+  form {
+    width: 50%; /* Puedes ajustar el ancho según tu preferencia */
+    max-width: 400px; /* Ancho máximo para mantener la legibilidad */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center;
+    color: black;
+  }
  
  
