@@ -17,8 +17,6 @@ form {
     color: black;
   }
 
-
-
 textarea{
     resize: none;
 }
@@ -97,5 +95,6 @@ label {
 .navbar {
     background-color: #f5f9fd; /* Puedes cambiar #336699 por el color que prefieras */
   }
-  
+
+
 

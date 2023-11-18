@@ -49,3 +49,12 @@ label {
 .centrarImg{
   margin-left: 90px;
 }
+
+/* Estilos para centrar la imagen horizontalmente */
+.centrarIMg {
+  display: block; /* Cambia el display a bloque para aplicar márgenes automáticos */
+  margin-left: auto; /* Establece el margen izquierdo automático */
+  margin-right: auto; /* Establece el margen derecho automático */
+}
+
+
