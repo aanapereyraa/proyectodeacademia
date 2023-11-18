@@ -5,16 +5,25 @@
     background-image: url(../IMAGENES/JPG/fondo20.jpg);
     color: rgb(250, 248, 248);
     background-size: cover;
-    display: block;
+    height: 800px;
+    width: 100%;
+ 
 
 }
 
+/* Estilos para el pie de página */
 #piedepag {
-    padding: 10px; /* Reducido de 20px a 10px */
+    position: fixed; /* Cambiado a "fixed" para mantenerlo fijo en la parte inferior */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+    padding: 10px;
     text-align: center;
     background-color: rgb(150, 150, 150);
-    height: 80px; /* Reducido de 100px a 80px */
+    height: 80px;
+    /* Otros estilos que desees aplicar al pie de página */
 }
+
 .zoom{
     display: inline-block;
     transition: transform 0.3s ease-in-out;
@@ -23,3 +32,8 @@
 .zoom:hover{
     transform: scale(1.2); /* Cambiar el tamaño al 120% */
 }
+
+.centrar{
+    margin-right: 50px;  /* Margen derecho de px */
+    margin-left: 50px;   /* Margen izquierdo de 25px */
+  }

@@ -31,6 +31,7 @@ color: darkcyan;
 }
 #mascarass{
     text-align: center;
+    margin-left: -15px;
 }
 
 #carouselExampleIndicators {
@@ -48,4 +49,10 @@ color: darkcyan;
     height: auto;
     display: block;
 }
+
+
+.centrar{
+    margin-right: 50px;  /* Margen derecho de px */
+    margin-left: 50px;   /* Margen izquierdo de 25px */
+  }
 

@@ -1,12 +1,22 @@
-.body {
+body {
     background-image: url('../IMAGENES/JPG/fondodeindex.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
-
 }
+form {
+    width: 50%; /* Puedes ajustar el ancho según tu preferencia */
+    max-width: 400px; /* Ancho máximo para mantener la legibilidad */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center;
+    color: black;
+  }
+
 textarea{
     resize: none;
 }
@@ -44,12 +54,7 @@ textarea{
 .cul:hover{
     color: blue;
 }
-
-form {
-    width: 350px;
-    border: 2px solid #ccc; 
- 
-  }
+  
 label {
     display: block;
     margin-bottom: 8px;
@@ -57,3 +62,39 @@ label {
 .fotos{
     text-align: center;
 }
+
+.centrar{
+  margin-right: 50px;  /* Margen derecho de px */
+  margin-left: 50px;   /* Margen izquierdo de 25px */
+}
+
+/* Establecer el color de letra blanco para el contenido principal */
+.body,
+.body p,
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5,
+.body h6,
+.body a {
+  color: #fff;
+}
+
+/* Establecer el color de letra blanco para los enlaces */
+.body a {
+  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+  color: #fff; /* Color de letra blanco para los enlaces */
+}
+
+/* Establecer el color de letra blanco para los enlaces cuando están en estado de hover */
+.body a:hover {
+  color: #ffffff; /* Cambia el color al blanco cuando pasas el cursor sobre los enlaces */
+}
+/* Cambiar el color de fondo de la barra de navegación */
+.navbar {
+    background-color: #f5f9fd; /* Puedes cambiar #336699 por el color que prefieras */
+  }
+
+
+

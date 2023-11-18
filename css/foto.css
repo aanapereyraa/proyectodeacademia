@@ -5,7 +5,20 @@
     background-repeat: no-repeat;
     color: azure;
 }
-
+.galeria{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
+.video{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
+.centrar{
+    margin-right: 50px;  /* Margen derecho de px */
+    margin-left: 50px;   /* Margen izquierdo de 25px */
+}
 #piedepag {
     padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;

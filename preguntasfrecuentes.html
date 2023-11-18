@@ -10,81 +10,150 @@
     <title>Preguntas</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Academia de arte IMA</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav" id="centro">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Carreras
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="pregrado.html#modalidad..">Modalidad</a></li>
-                      <li><a class="dropdown-item" href="pregrado.html#pregrado">Pregrado</a></li>
-                      <li><a class="dropdown-item" href="pregrado.html#grado">Grado</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Materias
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="arte.html">Arte</a></li>
-                      <li><a class="dropdown-item" href="danza.html">Danza</a></li>
-                      <li><a class="dropdown-item" href="fotografia.html">Fotografía</a></li>
-                      <li><a class="dropdown-item" href="música.html">Música</a></li>
-                      <li><a class="dropdown-item" href="teatro.html">Teatro</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
-                  </li>
+  <div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Academia de arte IMA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" id="centro">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Carreras
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pregrado.html#modalidad">Modalidad</a></li>
+                  <li><a class="dropdown-item" href="pregrado.html#pregrado">Pregrado</a></li>
+                  <li><a class="dropdown-item" href="pregrado.html#grado">Grado</a></li>
                 </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Materias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="arte.html">Arte</a></li>
+                  <li><a class="dropdown-item" href="danza.html">Danza</a></li>
+                  <li><a class="dropdown-item" href="fotografia.html">Fotografía</a></li>
+                  <li><a class="dropdown-item" href="música.html">Música</a></li>
+                  <li><a class="dropdown-item" href="teatro.html">Teatro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 <main>
- <div id="cajagrande">
-  
-<article>
-    <h2 style="font-size: 40px;">Preguntas Frecuentes</h2>
-¿Hay examen de ingreso? <br>
-<strong>No</strong>, en la Academia de Arte IMA no requerimos que pases un examen de ingreso para comenzar tus estudios,<em>ya sea en la modalidad presencial, virtual o híbrida</em> . <br> <br>
+    <div id="cajagrande">
+        <article class="centrar">
+            <h2 style="font-size: 40px;">Preguntas Frecuentes</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            ¿Hay examen de ingreso?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <strong>No</strong>, en la Academia de Arte IMA no requerimos que pases un examen de ingreso para comenzar tus estudios, ya sea en la modalidad presencial, virtual o híbrida.
+                        </div>
+                    </div>
+                </div>
 
-¿Cuáles son los aranceles?<br>
-Los aranceles <u>varían según el programa de estudio que elijas y la cantidad de materias en las que te inscribas</u>, independientemente de la modalidad. Para conocer los aranceles actuales de los programas de arte que te interesan, te invitamos a ponerte en contacto con nosotros a través de nuestro correo electrónico en <strong>admisiones@ima.edu.ar para que podamos brindarte asesoramiento personalizado</strong>. <br> <br>
+                <!-- Pregunta 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            ¿Cuáles son los aranceles?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Los aranceles varían según el programa de estudio que elijas y la cantidad de materias en las que te inscribas, independientemente de la modalidad. Para conocer los aranceles actuales de los programas de arte que te interesan, te invitamos a ponerte en contacto con nosotros a través de nuestro correo electrónico en <strong>admisiones@ima.edu.ar para que podamos brindarte asesoramiento personalizado</strong>.
+                        </div>
+                    </div>
+                </div>
 
-¿Cuáles son las modalidades de cursada?<br>
-En la Academia de Arte IMA, <strong>ofrecemos la modalidad presencial, virtual y híbrida</strong>. La modalidad híbrida combina clases presenciales con clases en línea, brindándote flexibilidad para adaptar tus estudios a tu rutina y circunstancias personales. <br> <br>
+                <!-- Pregunta 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            ¿Cuáles son las modalidades de cursada?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            En la Academia de Arte IMA, ofrecemos la modalidad presencial, virtual y híbrida. La modalidad híbrida combina clases presenciales con clases en línea, brindándote flexibilidad para adaptar tus estudios a tu rutina y circunstancias personales.
+                        </div>
+                    </div>
+                </div>
 
-¿Dónde y cuándo se cursa?<br>
-El lugar de cursada puede <em>variar según el programa de arte que elijas y la modalidad que prefieras</em>. Si decides cursar de forma híbrida, tendrás la oportunidad de <u>seleccionar los turnos y confirmar los horarios de cursada tanto para las clases presenciales como para las clases en línea</u>. <br> <br>
+                <!-- Pregunta 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            ¿Dónde y cuándo se cursa?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            El lugar de cursada puede variar según el programa de arte que elijas y la modalidad que prefieras. Si decides cursar de forma híbrida, tendrás la oportunidad de seleccionar los turnos y confirmar los horarios de cursada tanto para las clases presenciales como para las clases en línea.
+                        </div>
+                    </div>
+                </div>
 
-¿Hay algún programa de becas o beneficios?<br>
-<strong>Sí</strong>, en la Academia de Arte IMA <strong>contamos con un programa debecas y beneficios</strong> para apoyar a nuestros estudiantes en todas las modalidades de estudio, incluyendo la modalidad híbrida. <u>Te invitamos a ponerte en contacto con nuestro equipo de admisiones</u> para obtener información detallada sobre las opciones de becas disponibles. <br> <br>
-¿Cómo pago la academia?<br>
-Ofrecemos <strong>diversas opciones de pago para tu comodidad</strong>, incluyendo <em>pagos en línea a través de nuestro Portal de Estudiantes (Portal IMA)</em> para estudiantes en la modalidad híbrida. <br> <br>
+                <!-- Pregunta 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            ¿Hay algún programa de becas o beneficios?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <strong>Sí</strong>, en la Academia de Arte IMA contamos con un programa de becas y beneficios para apoyar a nuestros estudiantes en todas las modalidades de estudio, incluyendo la modalidad híbrida. Te invitamos a ponerte en contacto con nuestro equipo de admisiones para obtener información detallada sobre las opciones de becas disponibles.
+                        </div>
+                    </div>
+                </div>
 
-¿Cómo me matriculo? <br>
-La matriculación se realiza de <em>forma semestral para las carreras de grado y de forma anual para las carreras de posgrado</em>, independientemente de la modalidad. Puedes matricularte y arancelarte a través del Portal Académico IMA. <br> <br>
+                <!-- Pregunta 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            ¿Cómo pago la academia?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Ofrecemos diversas opciones de pago para tu comodidad, incluyendo pagos en línea a través de nuestro Portal de Estudiantes (Portal IMA) para estudiantes en la modalidad híbrida.
+                        </div>
+                    </div>
+                </div>
 
-¿Cuándo comienza la cursada? ¿Y la inscripción a materias? <br>
-Las fechas de inicio de las clases y <em>las inscripciones a materias pueden variar según la modalidad de estudios que elijas</em>, incluyendo la modalidad híbrida. Para obtener información detallada sobre las fechas y el calendario académico vigente,<strong>te recomendamos consultar nuestro Calendario Académico actualizado </strong>. 
-</article>
-<section>
-    <p>En caso de no contar con los recursos económicos, a nivel nacional existen préstamos y becas disponibles a través del <a href="https://www.argentina.gob.ar/cultura/fna">Fondo Nacional de las Artes (FNA)</a> con el cual tenemos convenios para facilitar la gestión de tu educación en nuestra academia IMA.</p>
-</section> <br>
-</div> 
-
+                <!-- Pregunta 7 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                          ¿No contas con recursos necesarios?
+                      </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                      En caso de no contar con los recursos económicos, a nivel nacional existen préstamos y becas disponibles a través del <a href="https://www.argentina.gob.ar/cultura/fna">Fondo Nacional de las Artes (FNA)</a> con el cual tenemos convenios para facilitar la gestión de tu educación en nuestra academia IMA. <br> <br>
+                      </div>
+                  </div>
+              </div>  
+  </div>           
 </main>
 <footer>
   <div id="piedepag">

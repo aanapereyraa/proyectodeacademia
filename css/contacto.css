@@ -44,3 +44,14 @@ h2{
 .env{
   border-radius: 15px;
 }
+
+form {
+  width: 50%; /* Puedes ajustar el ancho según tu preferencia */
+  max-width: 400px; /* Ancho máximo para mantener la legibilidad */
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 10px; /* Espaciado interno */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  border-radius: 8px; /* Bordes redondeados */
+  text-align: center;
+  color: black;
+}

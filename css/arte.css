@@ -10,6 +10,17 @@
     height:auto; 
     width:100%;
 }
+.imagen{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
+
+.video{
+    text-align: center;
+    height:auto; 
+    width:100%;
+}
 #centro{
     text-align: center;
     align-items: center;
@@ -40,6 +51,8 @@
     color: rgb(255, 0, 0);
 }
 
-.narvar{
-    /
+.centrar{
+    margin-right: 50px;  /* Margen derecho de px */
+    margin-left: 50px;   /* Margen izquierdo de 25px */
 }
+

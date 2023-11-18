@@ -22,12 +22,16 @@
 }
 
 
-.form {
-    width: 400px;
-    border: 2px solid #ccc; 
-    text-align: center;
-    
-  }
+form {
+  width: 50%; /* Puedes ajustar el ancho según tu preferencia */
+  max-width: 400px; /* Ancho máximo para mantener la legibilidad */
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 10px; /* Espaciado interno */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  border-radius: 8px; /* Bordes redondeados */
+  text-align: center;
+  color: black;
+}
 label {
     display: block;
     margin-bottom: 8px;
@@ -36,3 +40,21 @@ label {
 #imgcenter{
     vertical-align: top;
 }
+
+.centrar{
+  margin-right: 50px;  /* Margen derecho de px */
+  margin-left: 50px;   /* Margen izquierdo de 25px */
+}
+
+.centrarImg{
+  margin-left: 90px;
+}
+
+/* Estilos para centrar la imagen horizontalmente */
+.centrarIMg {
+  display: block; /* Cambia el display a bloque para aplicar márgenes automáticos */
+  margin-left: auto; /* Establece el margen izquierdo automático */
+  margin-right: auto; /* Establece el margen derecho automático */
+}
+
+
