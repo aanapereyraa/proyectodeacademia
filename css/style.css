@@ -3,16 +3,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #fff;
+    color: #fff !important;
+    background-color: #fff;
     background-attachment: fixed;
 }
 form {
     width: 50%; /* Puedes ajustar el ancho según tu preferencia */
     max-width: 400px; /* Ancho máximo para mantener la legibilidad */
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 20px; /* Espaciado interno */
-    background-color: rgba(255, 255, 255, 0.61); /* Fondo semi-transparente */
-    border-radius: 8px; /* Bordes redondeados */
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.61); 
+    border-radius:  8px;
     text-align: center;
     color: black;
   }
@@ -25,6 +26,7 @@ textarea{
     padding: 10px; /* Reducido de 20px a 10px */
     text-align: center;
     background-color: rgb(150, 150, 150);
+    color:rgb(33, 33, 33); ;
     height: 80px; /* Reducido de 100px a 80px */
   
 }
@@ -37,7 +39,6 @@ textarea{
 .zoom:hover{
     transform: scale(1.2); /* Cambiar el tamaño al 120% */
 }
-
 
 .ina:link{
     text-decoration: rgb(0, 0, 0);
@@ -64,34 +65,10 @@ label {
 }
 
 .centrar{
-  margin-right: 50px;  /* Margen derecho de px */
-  margin-left: 50px;   /* Margen izquierdo de 25px */
+  margin-right: 50px;  
+  margin-left: 50px;   
 }
 
-/* Establecer el color de letra blanco para el contenido principal */
-.body,
-.body p,
-.body h1,
-.body h2,
-.body h3,
-.body h4,
-.body h5,
-.body h6,
-.body a {
-  color: #fff;
-}
-
-/* Establecer el color de letra blanco para los enlaces */
-.body a {
-  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
-  color: #fff; /* Color de letra blanco para los enlaces */
-}
-
-/* Establecer el color de letra blanco para los enlaces cuando están en estado de hover */
-.body a:hover {
-  color: #ffffff; /* Cambia el color al blanco cuando pasas el cursor sobre los enlaces */
-}
-/* Cambiar el color de fondo de la barra de navegación */
 .navbar {
     background-color: #f5f9fd; /* Puedes cambiar #336699 por el color que prefieras */
   }
